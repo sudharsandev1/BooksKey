@@ -1,0 +1,173 @@
+html{
+ height: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color:pink;
+    padding: 10px;
+}
+.container{
+    padding: 10px;
+}
+.books-container{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.books-container h2{
+    color: pink;
+}
+.books-container button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:pink;
+    color: #000;
+    margin-top: 10px;
+}
+.add-btn{
+    background-color: pink;
+    color: black;
+    border: none;
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    font-size: 40px;
+    position:absolute;
+    z-index: 1;
+}
+.popup-overlay{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: none;
+    z-index: 2;
+}
+.popup-box{
+    background-color: pink;
+    width: 40%;
+    padding: 40px;
+    top:30%;
+    left: 30%;
+    position: absolute;
+    z-index: 3;
+    border-radius: 10px;
+    display: none;
+}
+.popup-box input {
+    background-color: transparent;
+    width:100%;
+    border: none;
+    border-bottom:solid 2px #000;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+.popup-box textarea {
+    background-color: transparent;
+    width:100%;
+    border: none;
+    border-bottom:solid 2px #000;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+.popup-box input::placeholder{
+    color: black;
+}
+.popup-box textarea::placeholder{
+    color: black;
+}
+.popup-box input:focus{
+    outline: none;
+}
+.popup-box textarea:focus{
+    outline: none;
+}
+.popup-box button{
+    background-color: #000;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom:5px;
+    font-size: 15px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    right: 0%;
+}
+
+footer li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    list-style-type: none;
+    padding: 10px auto;
+    margin: auto;
+}
+footer li a{
+   text-decoration: none;
+
+}
+.footericons li a{
+ border-radius: 100px;
+ margin: 20px;
+ background-color: pink;
+ padding: 10px;
+ display: flex;
+ font-size: 20px;
+ position: relative;
+}
+.footericons li a:hover{
+ color:3fff;
+}
+.footermenu a{
+ color: #fff;
+ margin: 20px;
+}
+.footermenu a:hover{
+    color: palevioletred;
+}
+footer .copyright{
+     background-color: pink;
+     color: black;
+     padding: 15px;
+     margin-top: 30px;
+     left: 0px;
+}
+footer .copyright  a{
+    text-decoration: none;
+    right: 10px;
+}

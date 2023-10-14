@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BooksKey</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>BooksKey</h1>
+    </div>
+   <div class="container">
+     <div class="books-container">
+        <h2>Web Hack</h2>
+        <h5>John</h5>
+        <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management.</p>
+        <button onclick="deletebook(event)">Delete</button>
+   </div>
+   <div class="popup-overlay "></div>
+   <div class="popup-box">
+        <h2>Add Book</h2>
+    <form>
+        <input  type="text" placeholder="Book Tittle" id="book-tittle-input">
+        <input   type="text"placeholder="Author Name" id="author-name-input">
+        <textarea placeholder="Description" id="book-description-input"></textarea>
+        <button id="add-book">ADD</button>
+        <button id="cancel">CANCEL</button>
+    </form>
+   </div>
+
+
+     <button class="add-btn" id="popup-add-btn">+</button>
+    <footer>
+        <ul class="footericons">
+            <li><a href ="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href ="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href ="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href ="#"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+        <ul class="footermenu">
+            <li><a href ="#">Home</a></li>
+            <li><a href ="#">About</a></li>
+            <li><a href ="#">Serives</a></li>
+            <li><a href ="#">Features</a></li>
+            <li><a href ="#">Contant US</a></li>
+        </ul>
+      <div class="copyright">
+       &copy;Copy Right<strong><span>BooksKey.</span></strong>.All rights Reserved
+      
+        Designed by<a href="#">Sudharsan codeing</a>
+      </div>
+    </footer>
+    <script src="script.js"> </script>
+</body>
+</html>
